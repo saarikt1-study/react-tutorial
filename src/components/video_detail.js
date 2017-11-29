@@ -5,7 +5,7 @@ const VideoDetail = ({video}) => {
     return <div>Loading...</div>
   }
   
-  const videoId = video.id.videoID
+  const videoId = video.id.videoId
   const url = `http://www.youtube.com/embed/${videoId}`
   
   return (
